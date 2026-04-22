@@ -12,3 +12,9 @@ AWS cloud is one of the most used cloud platforms in the world with about 39 geo
 - Edge locations serve as points for caching content to serve the end users
 - Local zones are an extension of the AWS region, they are located in metropolitan areas
 - Wavelength zones are zones with AWS infrastructure included with a telecom network provider for ultra low-latency and 5g network applications
+
+# Lab
+
+https://docs.google.com/document/d/1gViH4GTEE_sDP896TPXRGDiJCmBL2enRIwiS8dVkCD4/edit?tab=t.0
+
+Publicly accessible cheatsheet containing common AWS regions, their availability zone count and the common things to note
