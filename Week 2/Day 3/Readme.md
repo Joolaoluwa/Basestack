@@ -1,0 +1,4 @@
+# AWS ORGANIZATION AND SCP(Service Control Policies)
+
+AWS organization serve as a means to organize your team for fine-grained control, to consolidate your billings and manage the team structure. Service control policies are crucial for permission listing, in order to accurately state what level of access and activities can be allowed in that organization. In order to manage teams and processes within an organization, AWS organization unit are used to manage teams in a heirachical structure.
+It is crucial to note that SCP do not grant access to activities within the organization, they only permit actions that can be taken by the users or the organization unit. In order to grant permissions, it is advisable to use IAM policies attached to the user or a group, another important note is that if an SCP blocks any action by an OU, it overrides the IAM policy.

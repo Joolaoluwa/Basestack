@@ -1,0 +1,12 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "DenyDisableCloudTrail",
+            "Effect": "Deny",
+            "Action": ["cloudtrail:StopLogging", "cloudtrail: DeleteTrail", "cloudtrail: UpdateTrail"],
+            "Resource": "*"
+        }
+    ]
+}
+// This service control policy prevents anyone from tampering with the audited activities in the AWS cloud
